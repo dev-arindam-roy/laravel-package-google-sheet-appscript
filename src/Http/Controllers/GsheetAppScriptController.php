@@ -62,9 +62,11 @@ class GsheetAppScriptController extends Controller
         return redirect()->back()->with('onex_msg', 'New Row Added Successfully');
     }
 
-    public function deleteRow(Request $request)
+    public function removeRow(Request $request)
     {
+        $data = array();
         $requestData = $request->all();
+        $data['id'] = $requestData['id'];
         self::deleteRow($this->apiUrl, $data);
         return redirect()->back()->with('onex_msg', 'Row Deleted Successfully');
     }

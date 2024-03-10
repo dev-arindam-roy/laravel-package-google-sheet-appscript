@@ -106,7 +106,7 @@ Ex: http://localhost:8000/onex/gsheet
 
 ## Google AppScript Code:
 
-> **Just Copy & paste below code in your google sheet appscript section**
+> **Just Copy & paste below code in your google sheet appscript section & get the app url**
 
 ```javascript
 /** All Get Request */

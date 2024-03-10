@@ -19,7 +19,7 @@ if ($isRouteEnabled) {
         Route::get($routeName, 'GsheetAppScriptController@index')->name('gsheet-appscript.index');
         Route::post($routeName.'/delete-all', 'GsheetAppScriptController@deleteAll')->name('gsheet-appscript.deleteAll');
         Route::post($routeName.'/save-row', 'GsheetAppScriptController@saveRow')->name('gsheet-appscript.saveRow');
-        Route::post($routeName.'/delete-row', 'GsheetAppScriptController@deleteRow')->name('gsheet-appscript.deleteRow');
+        Route::post($routeName.'/delete-row', 'GsheetAppScriptController@removeRow')->name('gsheet-appscript.deleteRow');
         Route::post($routeName.'/access-login', 'GsheetAppScriptController@accessLogin')->name('gsheet-appscript.accessLogin');
         Route::get($routeName.'/access-off', 'GsheetAppScriptController@accessOff')->name('gsheet-appscript.accessOff');
     });
