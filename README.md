@@ -56,7 +56,7 @@ GsheetAppScript::clearSheet(); //delete all records in google sheet
 
 
 > **DIRECT USE BY ROUTE**
----
+
 <dl>
   <dt>>> <code>Just install and run the below route </span></code></dt>
 </dl>
