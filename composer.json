@@ -1,0 +1,30 @@
+{
+    "name": "arindam/gsheet-appscript",
+    "description": "A laravel package for access and manage any google sheet",
+    "type": "library",
+    "keywords": ["google sheet", "google appscript"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arindam Roy",
+            "email": "arindam.roy.developer@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Arindam\\GsheetAppScript\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arindam\\GsheetAppScript\\GsheetAppScriptServiceProvider"
+            ],
+            "aliases": {
+                "GsheetAppScript": "Arindam\\GsheetAppScript\\Gsheet\\GsheetAppScriptClassFacade"
+            }
+        }
+    }
+}
