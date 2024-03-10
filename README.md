@@ -67,6 +67,8 @@ Ex: http://your-website/onex/gsheet
 Ex: http://localhost:8000/onex/gsheet
 ```
 
+![2024-03-10_220306](https://github.com/dev-arindam-roy/laravel-package-google-sheet-appscript/assets/24665327/185945de-0916-4809-997d-c3f0fa1972eb)
+
 #### You can modify the configuration settings in - "config/gsheet-appscript.php":
 
 ```php
@@ -99,6 +101,8 @@ Ex: http://localhost:8000/onex/gsheet
     'password' => env('GSHEET_APPSCRIPT_LOGIN_PASSWORD', 'onexpassword')
 ]
 ```
+
+![2024-03-10_220503](https://github.com/dev-arindam-roy/laravel-package-google-sheet-appscript/assets/24665327/f135b6ba-c83d-46a5-aaa1-c8fc7293b714)
 
 ## Google AppScript Code:
 
