@@ -213,6 +213,9 @@ function clearSheet() {
 }
 ```
 
+![2024-03-10_234040](https://github.com/dev-arindam-roy/laravel-package-google-sheet-appscript/assets/24665327/90586591-92ea-46ec-b3f8-5b8c730d1743)
+
+![2024-03-10_234135](https://github.com/dev-arindam-roy/laravel-package-google-sheet-appscript/assets/24665327/2bec96b5-7f5c-45b4-8524-a4581d1e7f74)
 
 ## license:
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
