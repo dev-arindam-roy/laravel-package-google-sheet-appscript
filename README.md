@@ -34,6 +34,12 @@ php artisan vendor:publish --provider="Arindam\GsheetAppScript\GsheetAppScriptSe
 php artisan vendor:publish --tag="gsheet-appscript:config"
 ```
 
+### STEP 4: Add Google Sheet AppScript API Url to .env file:
+
+```php
+GSHEET_APPSCRIPT_API_URL=_YOUR_APP_SCRIPT_API_URL_
+```
+
 ## How to use?: It's Very Easy
 
 > **FACADE HELPER FUNCTIONS**
