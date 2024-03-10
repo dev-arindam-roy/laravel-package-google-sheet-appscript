@@ -47,4 +47,9 @@ class GsheetAppScriptClass
     {
         return self::deleteRow($this->apiUrl, $data);
     }
+
+    public function editRow($data)
+    {
+        return self::updateRow($this->apiUrl, $data);
+    }
 }
